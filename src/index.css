@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+    @apply bg-white mt-10 mx-6 rounded-xl;
+}
+
+main > img {
+    @apply rounded-t-xl;
+}
+
+section {
+    @apply pt-5 pb-7 px-6;
+}
+
+h1 {
+    @apply font-fraunces text-3xl mt-3 text-darkBlue;
+}
+
+h2 { 
+    @apply font-montserrat font-medium text-grayBlue tracking-[0.20rem];
+}
+
+h3 {
+    @apply font-fraunces text-3xl text-darkCyan;
+}
+
+h4 {
+    @apply font-montserrat text-grayBlue line-through ml-7 mt-1.5;
+}
+
+h5 {
+    @apply ml-2 font-montserrat font-bold text-lg;
+}
+
+p { 
+    @apply mt-4 font-montserrat text-grayBlue text-sm;
+}
+
