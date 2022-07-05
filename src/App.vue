@@ -1,7 +1,7 @@
 <template>
   <main class=" lg:w-[40vw] lg:mx-auto lg:my-[25vh] lg:h-[50vh] lg:flex ">
-    <img class=" lg:hidden " src="product-preview-card-component-main/images/image-product-mobile.jpg" alt="">
-    <img src="product-preview-card-component-main/images/image-product-desktop.jpg" class=" hidden lg:flex lg:w-1/2 lg:rounded-tl-xl lg:rounded-bl-xl lg:rounded-tr-none" alt="">
+    <img class=" lg:hidden " src="src/assets/image-product-mobile.jpg" alt="">
+    <img src="src/assets/image-product-desktop.jpg" class=" hidden lg:flex lg:w-1/2 lg:rounded-tl-xl lg:rounded-bl-xl lg:rounded-tr-none" alt="">
     <section class=" ">
       <h2 class=" ">PERFUME</h2>
       <h1 class=" ">Gabrielle Essence Eau De Parfum</h1>
